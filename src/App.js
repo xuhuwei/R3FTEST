@@ -7,7 +7,7 @@ function App() {
       <color attach="background" args={["black"]} />
       <OrbitControls />
       <mesh>
-        <boxGeometry />
+        <sphereGeometry />
         <meshBasicMaterial wireframe />
       </mesh>
     </Canvas>
